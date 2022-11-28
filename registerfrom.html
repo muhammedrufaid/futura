@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="methods">
+        <h1>Registration Form</h1>   
+        <table>
+        <tr>
+            <td>Name :</td>
+            <td><input type="text" id="name" required placeholder="enter your name"></td>
+        </tr>
+        <tr>
+            <td>phone no</td>
+            <td><input type="text" required pattern="[0-9]{10}"></td>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td><input type="date"  required></td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="number"  required></td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td><input type="checkbox" required>reading
+            <input type="checkbox" required>writing
+            </td>
+        </tr>
+        <tr>
+            <td> place:
+            <select name="" id="">
+            <option value=>select</option>  
+            <option value=>calicut</option>  
+            <option value=>kannur</option>  
+            <option value="wayanad"></option>
+            </select> </td>             
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender">male 
+                <input type="radio" name="gender">female
+            </td>
+        </tr>
+       
+        <tr>
+            <td>email</td>
+            <td><input type="email"  required></td>
+            <td><input type="password" required maxlength="6" minlength="10" ></td>
+        </tr>
+        <tr>
+            <td><input type="submit">
+            <button>cancel</button>
+            </td>
+        </tr>
+        
+
+    
+    
+    </table>  
+    </form>
+</body>
+</html>
