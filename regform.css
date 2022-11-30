@@ -1,0 +1,13 @@
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+table{
+    background-color: aquamarine;
+
+}
+body{
+    background: color #633863;   ;
+
+}
