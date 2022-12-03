@@ -1,7 +1,7 @@
 .card{
     
     margin:25px;
-    border-radius: 10px;
+   
 
 }
 .card-img-top{
@@ -10,9 +10,7 @@
    
    
 }
-.d-block{
-    border-radius: 10px 10px 0px 0px;
-}
+
 body{
     background-color:#333;
 }
@@ -22,6 +20,7 @@ body{
 .btn btn-outline-success{
     background: black;
     color: #fff;
+   
 }
 .d-flex{
     background: #333;
@@ -33,6 +32,8 @@ body{
 .dropdown-item{
     color: whitesmoke;
 }
+
+
 
 
    

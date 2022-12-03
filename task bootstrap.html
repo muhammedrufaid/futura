@@ -18,13 +18,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a style="color: white"  class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a style="color: white"  class="nav-link active" aria-current="page" href="registration form strap.html">Registration</a>
               </li>
+              <li class="nav-item">
+                <a style="color: white" class="nav-link" href="#">Contact</a>
+              </li>
+            
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a style="color: white" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About us
                 </a>
                 <ul class="dropdown-menu">
@@ -34,16 +38,47 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"  >
-              <button style="background:#000000 ; color: white; " class="btn btn-outline-success" type="submit">Search</button>
+           
+            
+            <form style class="d-flex" role="login">
+              <button style="background-color: white; color: black ;border-radius: 5px;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" ">
+                Login
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                   
+                    <table>
+                      <tr>
+                        <td>email</td><td><input type="email" name="" id=""></td>
+                      </tr>
+                      <tr>
+                        <td>phone </td><td><input type="text" name="" id=""> </td>
+                      </tr>
+                     
+                      <tr>
+                        <td>password </td><td><input type="text" name="" id=""></td>
+                      </tr>
+                    </table>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
+       
       </nav><div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -60,8 +95,8 @@
         <br>
       </div>
       <div class="card-group">
-        <div class="card">
-          <img src="https://tse2.mm.bing.net/th?id=OIP.3LtxHFr92ZmO_qB5-t4SJgHaEo&pid=Api&P=0" class="card-img-top" alt="...">
+        <div class="card" style="border-top-left-radius: 10% 20% 10% 10%;">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.3LtxHFr92ZmO_qB5-t4SJgHaEo&pid=Api&P=0" style="border-top-left-radius: 10% 20% 10% 10%;" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
