@@ -10,7 +10,7 @@ h1{
 
 p{
    background-image: url("https://tse2.mm.bing.net/th?id=OIP.sJQa4EnP4SQrh17g6nIiNgHaE9&pid=Api&P=0") ;
-   #background-repeat: no-repeat;
+   background-repeat: no-repeat;
    background-attachment: fixed;
     color: blue;
     font-size: 25px;

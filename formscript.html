@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" onkeypress="fun('sp1')"> 
+                    <span style="color: red;" id="sp1"></span></td>
+            </tr>
+            <tr>
+                <td>Email</td>           
+                <td><input type="email" id="email" onkeypress="fun('sp2')">
+                    <span style="color: red;" id="sp2"></span></td>
+            </tr>
+        <!--  <tr>
+                <td>phone</td>
+                <td><input type="text" pattern="[0-9[10]"></td>
+            </tr>
+            <tr>
+                <td>address</td>
+                <td><input style="width: 300px;height: 100px;" type="text"></td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td>
+                <select name="">
+                 <option value=>select</option>
+                 <option value=>india</option>
+                 <option value=>usa</option>
+                 <option value=>uk</option>
+                 <option value=>germany</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">male 
+                    <input type="radio" name="gender">female
+                </td>
+            </tr>
+            <tr>
+                <td>hobbies</td>
+                <td><input type="checkbox">singing
+                    <input type="checkbox">drawing
+                    <input type="checkbox">writing
+                </td>
+            </tr> -->
+            <tr>
+                <td><button onclick="return validate()">submit</button>
+            </tr>
+
+        </table>
+        
+    </form>
+</center>
+    
+    <script>
+
+        function validate()
+        {
+           let name1=document.getElementById("name").value;
+            if(name1==""){
+                document.getElementById("sp1").innerHTML="enter your name";
+                return false;
+            }
+            let email1=document.getElementById("email").value;
+              if(email1=="")
+{
+                document.getElementById("sp2").innerHTML="enter your email";
+                return false;
+            }
+              }
+            function fun(sp){
+            document.getElementById(sp).innerHTML="";
+             }
+    </script>
+    
+</body>
+</html>
